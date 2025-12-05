@@ -57,4 +57,4 @@ jobs:
 
       run: mvn -B verify --file pom.xml
 
-    - run: ls ${GITHUB_WORKSPACE}/target/*.jar<
+    - run: ls ${GITHUB_WORKSPACE}/target/*.jar
